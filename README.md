@@ -3,11 +3,11 @@
 This Terraform scripts create the following objects into an Azure Subscription:
 
 ## Contents:
-<ul>
--[Azure Resources](#a1)
--[Azure log-in command](#a2)
--[Terraform commands](#a3)
--[Running](#a4)
+
+- [Azure Resources](#a1)
+- [Azure log-in command](#a2)
+- [Terraform commands](#a3)
+- [Running](#a4)
 
 <a name="a1"/>
 ## Azure Resources:
