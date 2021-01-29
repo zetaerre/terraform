@@ -1,16 +1,14 @@
-# terraform
-
 ### Esgeo Infrastructure as a code (IaC) 
 
 This Terraform scripts create the following objects into an Azure Subscription:
 
 ## Contents:
 <ul>
-<li> [Azure Resources]</li>(#a1)
-<li> [Azure log-in command](#a2)</li>
-<li> [Terraform commands](#a3)</li>
-<li> [Running](#a4)</li>
-</ul>
+-[Azure Resources](#a1)
+-[Azure log-in command](#a2)
+-[Terraform commands](#a3)
+-[Running](#a4)
+
 <a name="a1"/>
 ## Azure Resources:
 <ul>
@@ -48,12 +46,6 @@ terraform apply -var prefix=zerogenesi -var resource_location=northeurope
 <code>
 ...
 ...
-azurerm_app_service.esgeo: Creating...
-azurerm_app_service.esgeo: Still creating... [10s elapsed]
-azurerm_app_service.esgeo: Still creating... [20s elapsed]
-azurerm_app_service.esgeo: Still creating... [30s elapsed]
-azurerm_app_service.esgeo: Creation complete after 34s [id=/subscriptions/########-####-####-####-#########/resourceGroups/esgeo-zerogenesi-resourceGroup/providers/Microsoft.Web/sites/esgeozerogenesi-webapp]
-
 Apply complete! Resources: 6 added, 0 changed, 0 destroyed.
 
 Outputs:
