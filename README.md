@@ -11,7 +11,7 @@ This Terraform scripts create the following objects into an Azure Subscription:
 
 <a name="a1"/>
 ## Azure Resources:
-<ul>
+
 - Resource Group
 - Storage Account
 	- Storage Container
@@ -19,7 +19,7 @@ This Terraform scripts create the following objects into an Azure Subscription:
 	- SQL Database
 - App Service Plan (Basic - B2)
 - App Service
-</ul>
+
 <a name="a2"/>
 ## Azure CLI commands
 ```
